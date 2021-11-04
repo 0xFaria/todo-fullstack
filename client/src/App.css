@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: gainsboro;
+}
+
+.App {
+  text-align: center;
+  color: rgb(160, 43, 228);
+  max-width: 730px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.App h1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header input {
+  flex: 1;
+  min-width: 75%;
+  padding:16px 18px;
+ background-color: azure;
+ font-size: 14px;
+ border: none;
+ outline: none;
+ border-radius: 8px;
+}
+
+header {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+
+.task {
+  background-color: azure;
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-radius: 8px;
+}
+.task p {
+    background-color: transparent;
+}
+button {
+  margin: 12px;
+  padding: 12px 20px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  background-color: azure;
+  border-radius: 8px;
+}
